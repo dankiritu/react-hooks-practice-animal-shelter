@@ -1,7 +1,7 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import Pet from "../components/Pet";
+import Pet from "/home/maish/Development/code/phase2/react-hooks-practice-animal-shelter/src/components/Pet.js";
 
 const MALE_DOG = {
   id: "9e7cc723-d7f5-440d-8ead-c311e68014ee",

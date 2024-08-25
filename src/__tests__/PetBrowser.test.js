@@ -1,7 +1,7 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import PetBrowser from "../components/PetBrowser";
+import PetBrowser from "/home/maish/Development/code/phase2/react-hooks-practice-animal-shelter/src/components/PetBrowser.js";
 
 const testPets = [
   {

@@ -4,7 +4,7 @@ import { render, fireEvent, screen } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import { server } from "../mocks/server";
 import { getAll, getByType } from "../mocks/data";
-import App from "../components/App";
+import App from "/home/maish/Development/code/phase2/react-hooks-practice-animal-shelter/src/components/App.js";
 
 beforeAll(() => server.listen());
 afterEach(() => server.resetHandlers());

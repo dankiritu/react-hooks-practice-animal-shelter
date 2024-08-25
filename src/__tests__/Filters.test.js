@@ -1,7 +1,7 @@
 import React from "react";
 import { render, fireEvent, screen } from "@testing-library/react";
 import "@testing-library/jest-dom";
-import Filters from "../components/Filters";
+import Filters from "/home/maish/Development/code/phase2/react-hooks-practice-animal-shelter/src/components/Filters.js";
 
 const FILTERS_STATE = {
   type: "all",
