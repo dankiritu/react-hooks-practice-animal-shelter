@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Filters from '/home/maish/Development/code/phase2/react-hooks-practice-animal-shelter/src/components/Filters.js';
-import PetBrowser from '/home/maish/Development/code/phase2/react-hooks-practice-animal-shelter/src/components/PetBrowser.js';
-import data from '/home/maish/Development/code/phase2/react-hooks-practice-animal-shelter/src/db.json';
+import Filters from './Filters';
+import PetBrowser from './PetBrowser';
+import data from '../db.json';
 
 
 const App = () => {
@@ -50,4 +50,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default App;

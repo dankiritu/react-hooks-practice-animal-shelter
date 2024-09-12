@@ -11,4 +11,4 @@ function PetBrowser({ pets, onAdoptPet }) {
   );
 }
 
-export default PetBrowser;
+export default PetBrowser;
